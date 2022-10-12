@@ -4,7 +4,7 @@ interest = 1.04
 years = 10
 counter = 0
 rateOfIncrease = 0.00
-input("\nInterest is at 1.04 (Default)")
+print("\nInterest is at 1.04 (Default)")
 print("\nStarting tuition cost is: $" + str(15000))
 rateOfIncrease = float(input("\nPlease enter rate of interest increase"))
 

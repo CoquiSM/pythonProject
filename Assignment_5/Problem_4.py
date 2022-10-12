@@ -9,7 +9,7 @@ while(flag != True):
  answerInput = int(input("\nSelect a number between 2-12"))
  if(answerInput == computerNum):
      print("Correct! The number is " + str(computerNum) + " you win")
-     tries -=1
+     tries -= 1
      print("remaining tries: " + tries)
 
  elif(answerInput != computerNum):
