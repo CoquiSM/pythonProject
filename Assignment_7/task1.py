@@ -17,6 +17,6 @@ while counter != 9:
     average = average + counter
     counter += 1
 
-average = average / 10
+average = average / 1
 
 print("\nThe Average is: " + str(average))
